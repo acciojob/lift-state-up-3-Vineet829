@@ -1,6 +1,20 @@
 
-.child{
-height:6rem;
-
-
-}
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .parent {
+    background-color: chartreuse;
+    padding: 20px;
+  }
+  .child1 {
+    background-color: chocolate;
+    padding: 5px;
+  }
+  .child2 {
+    background-color: gold;
+    padding: 5px;
+  }
+  input {
+    padding: 10px;
+  }

@@ -1,27 +1,14 @@
-
 import React from "react";
 
-const ChildComponent2 = ({ selectedOption, onOptionChange }) => {
+function ChildComponent2(props) {
   return (
-    <div
-      className="child"
-      style={{
-        color: "black",
-        backgroundColor: "#FFD600",
-        paddingTop: "14px",
-        paddingLeft:"5px"
-      }}
-    >
+    <div class="child2">
       <h2>Child Component 2</h2>
-      <button
-      
-        onClick={() => onOptionChange("Option 2")}
-        disabled={selectedOption === "Option 2"}
-      >
+      <button onClick={() => props.handleButtonClick("Option 2")}>
         Option 2
       </button>
     </div>
   );
-};
+}
 
 export default ChildComponent2;
